@@ -1,0 +1,5 @@
+C:/Users/c.stanley/CLionProjects/Thales/cmake-build-debug/CMakeFiles/Thales.dir
+C:/Users/c.stanley/CLionProjects/Thales/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/c.stanley/CLionProjects/Thales/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/c.stanley/CLionProjects/Thales/cmake-build-debug/CMakeFiles/Thales_autogen_timestamp_deps.dir
+C:/Users/c.stanley/CLionProjects/Thales/cmake-build-debug/CMakeFiles/Thales_autogen.dir
