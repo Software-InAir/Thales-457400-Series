@@ -136,7 +136,7 @@ build Thales_autogen\timestamp Thales_autogen\mocs_compilation.cpp | ${cmake_nin
 #############################################
 # Phony custom command for CMakeFiles\Thales_autogen_timestamp_deps
 
-build CMakeFiles\Thales_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\Thales_autogen_timestamp_deps: phony C$:\Qt6\6.9.1\msvc2022_64\bin\uic.exe C$:\Qt6\6.9.1\msvc2022_64\bin\moc.exe C$:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib
+build CMakeFiles\Thales_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\Thales_autogen_timestamp_deps: phony C$:\Qt6\6.9.1\msvc2022_64\bin\moc.exe C$:\Qt6\6.9.1\msvc2022_64\bin\uic.exe C$:\Qt6\6.9.1\msvc2022_64\lib\Qt6Cored.lib C$:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib
 
 
 #############################################

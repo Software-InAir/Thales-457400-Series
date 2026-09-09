@@ -26,6 +26,7 @@ add_executable(Thales
 target_link_libraries(Thales
         PRIVATE
         Qt6::Widgets
+        Qt6::Core
 )
 
 qt_finalize_executable(Thales)
