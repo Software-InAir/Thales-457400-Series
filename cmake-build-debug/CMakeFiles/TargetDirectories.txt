@@ -1,0 +1,5 @@
+/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/CMakeFiles/Thales.dir
+/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/CMakeFiles/Thales_autogen_timestamp_deps.dir
+/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/CMakeFiles/Thales_autogen.dir
