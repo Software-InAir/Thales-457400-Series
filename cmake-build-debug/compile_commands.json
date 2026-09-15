@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/Thales_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -fcolor-diagnostics -o CMakeFiles/Thales.dir/Thales_autogen/mocs_compilation.cpp.o -c /Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/Thales_autogen/mocs_compilation.cpp",
+  "file": "/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/Thales_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Thales.dir/Thales_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/cmake-build-debug/Thales_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -fcolor-diagnostics -o CMakeFiles/Thales.dir/main.cpp.o -c /Users/chasestanley/Downloads/Thales-457400-Series-0909eod/main.cpp",
+  "file": "/Users/chasestanley/Downloads/Thales-457400-Series-0909eod/main.cpp",
+  "output": "CMakeFiles/Thales.dir/main.cpp.o"
+}
+]
