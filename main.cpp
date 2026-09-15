@@ -6,6 +6,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QProgressBar>
+#include <QComboBox>
 #include <QDebug>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -1329,7 +1330,7 @@ QWidget* SubtestD4Page(QStackedWidget *pages) {
     title->setAlignment(Qt::AlignCenter);
 
     QLabel *title2 =
-        new QLabel("Part 2074");
+        new QLabel("Part 2074 A");
     title2->setStyleSheet(""
                           "font-weight: bold;");
     title2->setAlignment(Qt::AlignCenter);
@@ -1409,7 +1410,7 @@ QWidget* SubtestD5Page(QStackedWidget *pages) {
     title->setAlignment(Qt::AlignCenter);
 
     QLabel *title2 =
-        new QLabel("Part 2074");
+        new QLabel("Part 2074 B");
     title2->setStyleSheet(""
                           "font-weight: bold;");
     title2->setAlignment(Qt::AlignCenter);
@@ -4297,6 +4298,17 @@ QWidget* SubtestF24Page(QStackedWidget *pages) {
 
     instruction1->setAlignment(Qt::AlignCenter);
 
+    QPushButton *beginButton =
+        new QPushButton("Begin Timer");
+    beginButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
 
     QPushButton *passButton =
         new QPushButton("Pass");
@@ -4341,7 +4353,9 @@ QWidget* SubtestF24Page(QStackedWidget *pages) {
     layout->addStretch(1);
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
+    buttonlayout->addWidget(beginButton, 0, Qt::AlignCenter);
     buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
 
@@ -4355,6 +4369,10 @@ QWidget* SubtestF24Page(QStackedWidget *pages) {
         pages->setCurrentIndex(50);
     });
 
+    QObject::connect(beginButton, &QPushButton::clicked,
+   [pages, progressBar]() {
+       DimmingControl15Timer(pages, progressBar);
+    });
 
 
 
@@ -4450,7 +4468,9 @@ QWidget* SubtestF25Page(QStackedWidget *pages) {
     layout->addStretch(1);
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
+    buttonlayout->addWidget(beginButton, 0, Qt::AlignCenter);
     buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
 
@@ -4551,6 +4571,7 @@ QWidget* SubtestF26Page(QStackedWidget *pages) {
     layout->addStretch(1);
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
     buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
@@ -4658,18 +4679,20 @@ QWidget* SubtestF27Page(QStackedWidget *pages) {
     layout->addStretch(1);
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
+    buttonlayout->addWidget(beginButton, 0, Qt::AlignCenter);
     buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
 
     QObject::connect(passButton, &QPushButton::clicked,
     [pages, progressBar]() {
-        pages->setCurrentIndex(52);
+        pages->setCurrentIndex(54);
     });
 
     QObject::connect(failButton, &QPushButton::clicked,
     [pages, progressBar]() {
-        pages->setCurrentIndex(52);
+        pages->setCurrentIndex(54);
     });
 
     QObject::connect(beginButton, &QPushButton::clicked,
@@ -4760,6 +4783,7 @@ QWidget* SubtestF28Page(QStackedWidget *pages) {
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
     buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
 
@@ -8535,8 +8559,6 @@ QWidget* SubtestF68Page(QStackedWidget *pages) {
     });
 
 
-
-
     return page;
 }
 
@@ -8978,30 +9000,38 @@ QWidget* SubtestF74Page(QStackedWidget *pages) {
     title3->setAlignment(Qt::AlignCenter);
 
 
-
     QLabel *instruction1 =
-        new QLabel("Is the current UUT a member of either the 457400EB or 457400FB families?");
+        new QLabel("Please select current UUT family from the drop down menu and press Continue.");
 
     instruction1->setAlignment(Qt::AlignCenter);
 
-    QPushButton *yesButton =
-        new QPushButton("Yes");
-    yesButton->setStyleSheet("QPushButton {"
-                               "background-color: #15326A;"
-                               "color: #FFFFFF;"
-                               "}"
-                               "QPushButton:pressed {"
-                               "background-color: #FFFFFF;"
-                               "color: #15326A;"
-                               "}"
-                               );
-    QObject::connect(yesButton, &QPushButton::clicked, [pages]() {
+    QComboBox *uutSelector =
+        new QComboBox();
+
+    uutSelector->addItem("457400EB/FB");
+    uutSelector->addItem("457400GB/KB/MB/PB/UB");
+    uutSelector->addItem("457400RB/SB");
+    uutSelector->addItem("457400TC/WB");
+
+    /*
+    if(uutSelector->currentIndex == 0) {
         pages->setCurrentIndex(102);
-    });
+    }
+    else if(uutSelector->currentIndex == 1) {
+        pages->setCurrentIndex(103);
+    }
+    else if(uutSelector->currentIndex == 2) {
+        pages->setCurrentIndex(104);
+    }
+    else if(uutSelector->currentIndex == 3) {
+        pages->setCurrentIndex(105);
+    }
 
-    QPushButton *noButton =
-        new QPushButton("No");
-    noButton->setStyleSheet("QPushButton {"
+    */
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
                                "background-color: #15326A;"
                                "color: #FFFFFF;"
                                "}"
@@ -9010,10 +9040,23 @@ QWidget* SubtestF74Page(QStackedWidget *pages) {
                                "color: #15326A;"
                                "}"
                                );
-    QObject::connect(noButton, &QPushButton::clicked, [pages]() {
-        pages->setCurrentIndex(103);
-    });
 
+    /*
+    QObject::connect(continueButton, &QPushButton::clicked, [pages]() {
+        if(uutSelector->currentIndex == 0) {
+            pages->setCurrentIndex(102);
+        }
+        else if(uutSelector->currentIndex == 1) {
+            pages->setCurrentIndex(111);
+        }
+        else if(uutSelector->currentIndex == 2) {
+            pages->setCurrentIndex(113);
+        }
+        else if(uutSelector->currentIndex == 3) {
+            pages->setCurrentIndex(120);
+        }
+
+    });*/
 
 
 
@@ -9031,12 +9074,12 @@ QWidget* SubtestF74Page(QStackedWidget *pages) {
     layout->addStretch(1);
     layout->addWidget(instruction1);
     layout->addStretch(2);
+    layout->addWidget(uutSelector);
     layout->addLayout(buttonlayout);
     layout->addStretch(1);
     layout->addWidget(progressBar);
     buttonlayout->addStretch();
-    buttonlayout->addWidget(yesButton, 0, Qt::AlignCenter);
-    buttonlayout->addWidget(noButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
     buttonlayout->addStretch();
     layout->addStretch(6);
 
@@ -9066,7 +9109,7 @@ QWidget* SubtestF75Page(QStackedWidget *pages)
 
 
     QLabel *title3 =
-        new QLabel("");
+        new QLabel("P/N 457400EB/FB");
     title3->setStyleSheet(""
                           "font-size: 18px;");
     title3->setAlignment(Qt::AlignCenter);
@@ -9154,7 +9197,7 @@ QWidget* SubtestF76Page(QStackedWidget *pages)
 
     QLabel *title3 =
         new QLabel("");
-    title3->setStyleSheet(""
+    title3->setStyleSheet("P/N 457400EB/FB"
                           "font-size: 18px;");
     title3->setAlignment(Qt::AlignCenter);
 
@@ -9221,6 +9264,3614 @@ QWidget* SubtestF76Page(QStackedWidget *pages)
 
     return page;
 }
+
+QWidget* SubtestF77Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5060");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400EB/FB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push the button a second time and verify that the display corresponds to the initial picture");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(106);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(106);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF78Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5070");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400EB/FB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("To test the correct operation of the lower left hand push-button on the front face, delete"
+                "the intruder #1 (RA) and #2 (TA) from the intruder file transmitted by the TCAS bus and"
+                "verfy that the intruders, the own aircraft symbol, the range ring and the selected range"
+                "are no longer displayed and replaced by the markings 'VERTICAL SPEED' and 'x' 1000 FT/MN.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(107);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(107);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF79Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5080");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400EB/FB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push once the button and verify that the intruders #3 and #4 only are displayed.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(108);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(108);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF80Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5090");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400EB/FB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push a second time and verify that the display returns to the previous configuration.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(109);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(109);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF81Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5100");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400EB/FB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Restore normal configuration of TCAS messages by reincluding intruder and #1 and #2"
+                    "and verify that the picture displayed corresponds to the initial picture");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(110);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(110);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF82Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5110");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400GB/KB/MB/PB/UB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Generate the messages corresponding to the configuration given in step 5040 (except"
+                        "Intruders #5 and #6 and steps 5050 to 5100) and check that the picture displayed"
+                        "corresponds to that given");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(112);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(112);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF83Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5120");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Generate the messages corresponding to the configuration given in step 5040 (except"
+                    "Intruders #5 and #6 which are optional) and check that the picture displayed"
+                    "corresponds to that given");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(114);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(114);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF84Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5130");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push once the lower right hand push-button on the front face * and verify that the same"
+                    "symbology is displayed with the scale corresponding to 16 NM (with an additional"
+                    "range ring at 6 NM and the value 16 NM indicated in the upper right hand corner of the"
+                    "display).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(115);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(115);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF85Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5140");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Check that, with the 16 NM range selected, any further action on this push-button does"
+                        "not modify the selected range.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(116);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(116);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF86Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5150");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push once the lower left hand push-button on the front face * and verify that:"
+                        "the display switches from previous displayed range (16 NM) to the next lower"
+                        "selectable range (8 NM).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(117);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(117);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF87Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5160");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push the button again (second time) and verify that the display switches from actual"
+                        "range to the next lower range (8 NM to 4 NM).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(118);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(118);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF88Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5170");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N  457400RB/SB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("With the 4 NM range selected, any further action on this button does not modify the"
+                        "selected range.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(119);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(119);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF89Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5180");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Generate the messages corresponding to the configuration given in step 5040 and"
+                    "check that the picture displayed corresponds to that given");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(121);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(121);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF90Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5190");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push once the lower right hand push-button on the front face and verify that the same"
+                    "symbology is displayed with the scale corresponding to 12 NM (with an additional"
+                    "range ring at 6 NM and the value 12 NM indicated in the upper right hand corner of the"
+                    "display).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(121);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(121);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF91Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5200");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push the button a second time and verify that the display corresponds to the initial picture");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(122);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(122);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF92Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5300");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push once the lower left hand push-button on the front face and verify that:"
+                    "the intruder #5 is displayed in addition to the intial picture (same symbol as for"
+                    "intruder #4 with '32' above the symbol),"
+                    "the selected mode is annunciated in the lower left hand corner of the display"
+                    "('Above' mode).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(123);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(123);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF93Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5310");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push the button again (second time) and verify that:"
+                    "the intruder #5 is blanked and the intruder #6 is displayed (same symbol as for"
+                    "intruder #4 with '-32' below the symbol),"
+                    "the selected mode is annunciated in the lower left hand corner of the display"
+                    "('Below' mode).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(124);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(124);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF94Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5320");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("Push the button again (third time) and verify that the initial picture is displayed again.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(125);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(125);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF95Page(QStackedWidget *pages)
+{
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest G: ARINC 429 HS TCAS DIGITAL INPUT");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 5330");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+
+    QLabel *title3 =
+        new QLabel("P/N 457400TC/WB");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+    QLabel *instruction1 =
+        new QLabel("With the 4NM range selected, any further action on this button does not modify the"
+                            "selected range (For versions WB only).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(126);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(126);
+    });
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    //QObject::connect(beginButton, &QPushButton::clicked, [pages]() {
+    //PowerConsumptionTimer(pages);
+    //pages->setCurrentIndex(2);
+//});
+
+    return page;
+}
+
+QWidget* SubtestF96Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6000");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Remove input power.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(127);
+    });
+
+    return page;
+}
+
+
+QWidget* SubtestF97Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6010");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Is the current UUT a member of the GB '15xx' or MB '15xx' families?");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+    QPushButton *yesButton =
+        new QPushButton("Yes");
+    yesButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(yesButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(128);
+    });
+
+    QPushButton *noButton =
+        new QPushButton("No");
+    noButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(noButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(130);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(yesButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(noButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF98Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6010");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Configure the operating mode of the indicator in TA/VSI (Toggle Switch 17 in the upwards position (15)"
+                "and Toggle Switch 35 in the downwards position (Open)");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(131);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF99Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6020");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Using the configuration described in para. “VERTICAL SPEED INPUT ACCURACY “:"
+                        "Primary ARINC 565 Input (Analog AC) or Primary ARINC 565 Input (Analog AC) for"
+                        "GB2100. Select the primary vertical speed analog input (ARINC 565).");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(132);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF100Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6030");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Apply normal input power.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(133);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF101Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6040");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Generate the sequence described in para. 'ARINC 429 HS TCAS DIGITAL INPUT” on the TCAS input.'");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(134);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF102Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6050");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Check that the validity output is grounded.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(135);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(135);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF103Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6060");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Modify the label 270 in the TCAS messages so as to return to the configuration"
+                        "described in para. “ARINC 429 HS TCAS DIGITAL INPUT” except label 270 SSM ="
+                        "TEST [bit (30,31) = (0,1)].");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(136);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF104Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6070");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Check that the validity output (pin 29) goes into OPEN state within 3 seconds following"
+                        "the modification of label 270 and returns to the GROUND state between the 4th and"
+                        "5th second.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(137);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(137);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF105Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6080");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Cut off the 28V DC applied to pin 8. Check that the output goes into OPEN state (not"
+                    "applicable to versions GB '15xx' and MB '15xx').");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(138);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(138);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF106Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6090");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("TCAS Display Status Output");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Restore the 28V DC and check that the output returns to GROUND state. (not"
+                    "applicable to versions GB '15xx' and MB '15xx').");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(139);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(139);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF107Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6100");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Remove input power");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(140);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF108Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6110");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Configure the indicator as described in para. para. 'VERTICAL SPEED INPUT'"
+                        "ACCURACY “: Primary ARINC 565 Input (Analog AC) or Primary ARINC 565 Input"
+                        "(Analog AC) for GB210x.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(141);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF109Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6120");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Apply normal input power.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Continue");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+    QObject::connect(continueButton, &QPushButton::clicked,
+    [pages, progressBar]() {
+        pages->setCurrentIndex(142);
+    });
+
+    return page;
+}
+
+QWidget* SubtestF110Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6130");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Check that the voltage measured on pin 38 is between 18.5 and 32 VDC.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(143);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(143);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF111Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6140");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Cut off the 28 VDC applied to pin 8 and check that the validity output is open.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(144);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(144);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF112Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6150");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Restore the 28 VDC to pin 8 and check that the output voltage is in the state checked in step 6130. ");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(145);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(145);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF113Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6160");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Remove input power.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(146);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(146);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF114Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6170");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Configure the indicator as described in para. para. 'VERTICAL SPEED INPUT'"
+                        "'ACCURACY' : Primary ARINC 429 HS Input (Port 1) or Primary ARINC 429 HS Input"
+                        "(Port 1) for GB2100.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Pass");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(continueButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(147);
+    });
+
+
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF115Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6180");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Apply normal input power.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Pass");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(continueButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(148);
+    });
+
+
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF116Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6190");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Check that pin 38 is in GROUND state.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(149);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(149);
+    });
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF117Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6200");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Generate a 'Failure Warning' vertical speed message and check that the validity output is OPEN.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+
+
+    QPushButton *passButton =
+        new QPushButton("Pass");
+    passButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(passButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(150);
+    });
+
+    QPushButton *failButton =
+        new QPushButton("Fail");
+    failButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+
+    QObject::connect(failButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(150);
+    });
+
+
+
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(passButton, 0, Qt::AlignCenter);
+    buttonlayout->addWidget(failButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
+QWidget* SubtestF118Page(QStackedWidget *pages) {
+    QWidget *page = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(page);
+    QHBoxLayout *buttonlayout = new QHBoxLayout();
+
+    QLabel *title =
+        new QLabel("Subtest H: DISCRETE OUTPUTS");
+    title->setStyleSheet("font-size: 24px;"
+                        "   font-weight: bold;");
+
+    title->setAlignment(Qt::AlignCenter);
+
+    QLabel *title2 =
+        new QLabel("Part 6210");
+    title2->setStyleSheet(""
+                          "font-weight: bold;");
+    title2->setAlignment(Qt::AlignCenter);
+
+    QLabel *title3 =
+        new QLabel("+28VDC/OPEN Output Logic");
+    title3->setStyleSheet(""
+                          "font-size: 18px;");
+    title3->setAlignment(Qt::AlignCenter);
+
+
+
+    QLabel *instruction1 =
+        new QLabel("Reconfigure the vertical speed message to normal operation.");
+
+    instruction1->setAlignment(Qt::AlignCenter);
+
+
+    QPushButton *continueButton =
+        new QPushButton("Pass");
+    continueButton->setStyleSheet("QPushButton {"
+                               "background-color: #15326A;"
+                               "color: #FFFFFF;"
+                               "}"
+                               "QPushButton:pressed {"
+                               "background-color: #FFFFFF;"
+                               "color: #15326A;"
+                               "}"
+                               );
+    QObject::connect(continueButton, &QPushButton::clicked, [pages]() {
+        pages->setCurrentIndex(151);
+    });
+
+
+
+
+    QProgressBar *progressBar = new QProgressBar;
+    progressBar->setRange(0, 100);
+    progressBar->setValue(0);
+    progressBar->setTextVisible(true);
+
+
+    layout->addStretch(6);
+    layout->addWidget(title);
+    layout->addStretch(1);
+    layout->addWidget(title2);
+    layout->addWidget(title3);
+    layout->addStretch(1);
+    layout->addWidget(instruction1);
+    layout->addStretch(2);
+    layout->addLayout(buttonlayout);
+    layout->addStretch(1);
+    layout->addWidget(progressBar);
+    buttonlayout->addStretch();
+    buttonlayout->addWidget(continueButton, 0, Qt::AlignCenter);
+    buttonlayout->addStretch();
+    layout->addStretch(6);
+
+
+    return page;
+}
+
 // Pick up back here at Subtest E Part 3000
 
 

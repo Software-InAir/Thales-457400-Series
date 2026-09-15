@@ -8446,6 +8446,1326 @@ Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
 Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
 Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
 Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindCodeBlocks.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindThreads.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\ProcessorCount.cmake"
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapAtomic.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Config.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Dependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Targets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeature.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeatureCommon.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtInstallPaths.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicGitHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\CMakeLists.txt
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeCXXCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindCodeBlocks.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindThreads.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\ProcessorCount.cmake"
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapAtomic.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Config.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Dependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Targets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeature.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeatureCommon.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtInstallPaths.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicGitHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\CMakeLists.txt
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeCXXCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindCodeBlocks.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindThreads.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\ProcessorCount.cmake"
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapAtomic.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Config.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Dependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Targets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeature.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeatureCommon.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtInstallPaths.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicGitHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\CMakeLists.txt
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeCXXCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindCodeBlocks.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindThreads.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\ProcessorCount.cmake"
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapAtomic.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Config.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Dependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Targets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeature.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeatureCommon.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtInstallPaths.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicGitHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\CMakeLists.txt
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeCXXCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindCodeBlocks.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindThreads.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake"
+Thales_autogen\timestamp: "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\ProcessorCount.cmake"
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapAtomic.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Config.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Dependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6Targets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeature.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtFeatureCommon.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtInstallPaths.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicGitHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CorePrivate\Qt6CorePrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICNSPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QPdfPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTgaPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTiffPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QVirtualKeyboardPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWbmpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWebpPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiPrivate\Qt6GuiPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6QModernWindowsStylePluginTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsPrivate\Qt6WidgetsPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake
+Thales_autogen\timestamp: C:\Qt6\6.9.1\msvc2022_64\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessAliasTargets.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\CMakeLists.txt
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeCXXCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeRCCompiler.cmake
+Thales_autogen\timestamp: CMakeFiles\3.28.1\CMakeSystem.cmake
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.cpp
+Thales_autogen\timestamp: C:\Users\c.stanley\Desktop\Thales-457400-Series-0914sod\main.h
 
 
 
