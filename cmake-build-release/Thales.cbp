@@ -24,17 +24,20 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add option="-DEXP_WIN32"/>
+					<Add option="-D_WIN64"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DWIN32"/>
 					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
 					<Add option="-DWIN64"/>
-					<Add option="-D_WIN64"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add directory="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/Thales_autogen/include"/>
+					<Add directory="C:/Excalibur/4000PCI Family Software Tools/Source/include"/>
+					<Add directory="C:/Excalibur/429RTx Software Tools/Source/include"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include/QtWidgets"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include/QtCore"/>
@@ -66,17 +69,20 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add option="-DEXP_WIN32"/>
+					<Add option="-D_WIN64"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DWIN32"/>
 					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
 					<Add option="-DWIN64"/>
-					<Add option="-D_WIN64"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add directory="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/Thales_autogen/include"/>
+					<Add directory="C:/Excalibur/4000PCI Family Software Tools/Source/include"/>
+					<Add directory="C:/Excalibur/429RTx Software Tools/Source/include"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include/QtWidgets"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include"/>
 					<Add directory="C:/Qt6/6.9.1/msvc2022_64/include/QtCore"/>
@@ -155,6 +161,12 @@
 			<Option target="Thales"/>
 		</Unit>
 		<Unit filename="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/main.h">
+			<Option target="Thales"/>
+		</Unit>
+		<Unit filename="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/serial.cpp">
+			<Option target="Thales"/>
+		</Unit>
+		<Unit filename="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/serial.h">
 			<Option target="Thales"/>
 		</Unit>
 		<Unit filename="C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/CMakeLists.txt">

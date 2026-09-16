@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-debug/Thales_autogen/mocs_compilation.cpp" "CMakeFiles/Thales.dir/Thales_autogen/mocs_compilation.cpp.obj" "msvc" "CMakeFiles/Thales.dir/Thales_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/main.cpp" "CMakeFiles/Thales.dir/main.cpp.obj" "msvc" "CMakeFiles/Thales.dir/main.cpp.obj.d"
+  "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/serial.cpp" "CMakeFiles/Thales.dir/serial.cpp.obj" "msvc" "CMakeFiles/Thales.dir/serial.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

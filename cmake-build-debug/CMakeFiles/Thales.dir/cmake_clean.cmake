@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Thales.dir/Thales_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/Thales.dir/main.cpp.obj"
   "CMakeFiles/Thales.dir/main.cpp.obj.d"
+  "CMakeFiles/Thales.dir/serial.cpp.obj"
+  "CMakeFiles/Thales.dir/serial.cpp.obj.d"
   "Thales.exe"
   "Thales.exe.manifest"
   "Thales.lib"

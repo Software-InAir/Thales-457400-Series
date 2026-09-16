@@ -56,9 +56,9 @@ include CMakeFiles\Thales_autogen_timestamp_deps.dir\compiler_depend.make
 include CMakeFiles\Thales_autogen_timestamp_deps.dir\progress.make
 
 CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Cored.lib
-CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib
-CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\bin\uic.exe
 CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\bin\moc.exe
+CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\bin\uic.exe
+CMakeFiles\Thales_autogen_timestamp_deps: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib
 
 Thales_autogen_timestamp_deps: CMakeFiles\Thales_autogen_timestamp_deps
 Thales_autogen_timestamp_deps: CMakeFiles\Thales_autogen_timestamp_deps.dir\build.make

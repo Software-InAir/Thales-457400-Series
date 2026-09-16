@@ -1,3 +1,7 @@
+#ifndef EXP_WIN32
+#define EXP_WIN32
+#endif
+
 #include <QApplication>
 #include <QWidget>
 #include <QStackedWidget>
@@ -10,6 +14,12 @@
 #include <QDebug>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
+
+#include <windows.h>
+
+#include "exc4000.h"
+
+
 
 
 QWidget* CreateWelcomePage(QStackedWidget *pages);
@@ -151,6 +161,7 @@ void DimmingControl25Timer(QStackedWidget *pages, QProgressBar *bar);
 
 int main(int argc, char *argv[])
 {
+
     QApplication app(argc, argv);
 
     QWidget window;

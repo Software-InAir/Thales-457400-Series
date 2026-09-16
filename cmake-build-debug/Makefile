@@ -192,6 +192,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+serial.obj: serial.cpp.obj
+.PHONY : serial.obj
+
+# target to build an object file
+serial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\serial.cpp.obj
+.PHONY : serial.cpp.obj
+
+serial.i: serial.cpp.i
+.PHONY : serial.i
+
+# target to preprocess a source file
+serial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\serial.cpp.i
+.PHONY : serial.cpp.i
+
+serial.s: serial.cpp.s
+.PHONY : serial.s
+
+# target to generate assembly for a file
+serial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\serial.cpp.s
+.PHONY : serial.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,6 +233,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... serial.obj
+	@echo ... serial.i
+	@echo ... serial.s
 .PHONY : help
 
 

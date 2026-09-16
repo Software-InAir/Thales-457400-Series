@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z7xdvp"
-      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z7xdvp"
+      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-olsiq2"
+      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-olsiq2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -73,34 +73,30 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z7xdvp'
+        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-olsiq2'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_9b1ca\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9b1ca.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9b1ca.dir\\build
-        Building CXX object CMakeFiles/cmTC_9b1ca.dir/CMakeCXXCompilerABI.cpp.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9b1ca.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z7xdvp --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmF474.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_1a8b1\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_1a8b1.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1a8b1.dir\\build
+        Building CXX object CMakeFiles/cmTC_1a8b1.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1a8b1.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-olsiq2 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm652A.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_9b1ca.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9b1ca.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9b1ca.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmF511.tmp
+        Linking CXX executable cmTC_1a8b1.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1a8b1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1a8b1.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm65E7.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_9b1ca.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_9b1ca.dir/embed.manifest
+        Create CMakeFiles\\cmTC_1a8b1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_1a8b1.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9b1ca.dir/manifest.res CMakeFiles\\cmTC_9b1ca.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1a8b1.dir/manifest.res CMakeFiles\\cmTC_1a8b1.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9b1ca.dir\\objects1.rsp /out:cmTC_9b1ca.exe /implib:cmTC_9b1ca.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z7xdvp\\cmTC_9b1ca.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9b1ca.dir/intermediate.manifest CMakeFiles\\cmTC_9b1ca.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1a8b1.dir\\objects1.rsp /out:cmTC_1a8b1.exe /implib:cmTC_1a8b1.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-olsiq2\\cmTC_1a8b1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1a8b1.dir/intermediate.manifest CMakeFiles\\cmTC_1a8b1.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_9b1ca.dir/intermediate.manifest /out:CMakeFiles\\cmTC_9b1ca.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_1a8b1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_1a8b1.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9b1ca.dir/manifest.res CMakeFiles\\cmTC_9b1ca.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1a8b1.dir/manifest.res CMakeFiles\\cmTC_1a8b1.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9b1ca.dir\\objects1.rsp /out:cmTC_9b1ca.exe /implib:cmTC_9b1ca.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z7xdvp\\cmTC_9b1ca.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9b1ca.dir/intermediate.manifest CMakeFiles\\cmTC_9b1ca.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1a8b1.dir\\objects1.rsp /out:cmTC_1a8b1.exe /implib:cmTC_1a8b1.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-olsiq2\\cmTC_1a8b1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1a8b1.dir/intermediate.manifest CMakeFiles\\cmTC_1a8b1.dir/manifest.res
         
       exitCode: 0
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -112,12 +108,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nbdaq4"
-      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nbdaq4"
+      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-icljdi"
+      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-icljdi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -127,17 +123,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nbdaq4'
+        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-icljdi'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_68ce7\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_68ce7.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_68ce7.dir\\build
-        Building CXX object CMakeFiles/cmTC_68ce7.dir/src.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_68ce7.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nbdaq4 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC3F8.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_06fe5\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_06fe5.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_06fe5.dir\\build
+        Building CXX object CMakeFiles/cmTC_06fe5.dir/src.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_06fe5.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-icljdi --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6B16.tmp
         src.cxx
-        C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nbdaq4\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_68ce7.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nbdaq4 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC3F8.tmp' : return code '0x2'
+        C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-icljdi\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_06fe5.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-icljdi --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6B16.tmp' : return code '0x2'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_68ce7.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_68ce7.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_06fe5.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_06fe5.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -151,12 +147,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-h8nxfb"
-      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-h8nxfb"
+      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l6tymz"
+      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l6tymz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -166,27 +162,27 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-h8nxfb'
+        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-l6tymz'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_f2786\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_f2786.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_f2786.dir\\build
-        Building CXX object CMakeFiles/cmTC_f2786.dir/CheckFunctionExists.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f2786.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-h8nxfb --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC521.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_10a3b\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_10a3b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_10a3b.dir\\build
+        Building CXX object CMakeFiles/cmTC_10a3b.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_10a3b.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-l6tymz --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6C6E.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_f2786.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f2786.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f2786.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC5AF.tmp
+        Linking CXX executable cmTC_10a3b.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_10a3b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_10a3b.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6D1A.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_f2786.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_f2786.dir/embed.manifest
+        Create CMakeFiles\\cmTC_10a3b.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_10a3b.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f2786.dir/manifest.res CMakeFiles\\cmTC_f2786.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_10a3b.dir/manifest.res CMakeFiles\\cmTC_10a3b.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f2786.dir\\objects1.rsp /out:cmTC_f2786.exe /implib:cmTC_f2786.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-h8nxfb\\cmTC_f2786.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f2786.dir/intermediate.manifest CMakeFiles\\cmTC_f2786.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f2786.dir\\objects1.rsp /out:cmTC_f2786.exe /implib:cmTC_f2786.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-h8nxfb\\cmTC_f2786.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f2786.dir/intermediate.manifest CMakeFiles\\cmTC_f2786.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_10a3b.dir\\objects1.rsp /out:cmTC_10a3b.exe /implib:cmTC_10a3b.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-l6tymz\\cmTC_10a3b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_10a3b.dir/intermediate.manifest CMakeFiles\\cmTC_10a3b.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_10a3b.dir\\objects1.rsp /out:cmTC_10a3b.exe /implib:cmTC_10a3b.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-l6tymz\\cmTC_10a3b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_10a3b.dir/intermediate.manifest CMakeFiles\\cmTC_10a3b.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f2786.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f2786.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC5AF.tmp' : return code '0xffffffff'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_10a3b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_10a3b.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6D1A.tmp' : return code '0xffffffff'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_f2786.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_f2786.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_10a3b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_10a3b.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -200,12 +196,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-jdxohz"
-      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-jdxohz"
+      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulty9s"
+      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulty9s"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -215,27 +211,27 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-jdxohz'
+        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ulty9s'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_79d36\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_79d36.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_79d36.dir\\build
-        Building CXX object CMakeFiles/cmTC_79d36.dir/CheckFunctionExists.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_79d36.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-jdxohz --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC6C7.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_b2a06\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b2a06.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b2a06.dir\\build
+        Building CXX object CMakeFiles/cmTC_b2a06.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_b2a06.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ulty9s --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6E32.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_79d36.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_79d36.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79d36.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC755.tmp
+        Linking CXX executable cmTC_b2a06.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b2a06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b2a06.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6ED0.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_79d36.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_79d36.dir/embed.manifest
+        Create CMakeFiles\\cmTC_b2a06.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_b2a06.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_79d36.dir/manifest.res CMakeFiles\\cmTC_79d36.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_b2a06.dir/manifest.res CMakeFiles\\cmTC_b2a06.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79d36.dir\\objects1.rsp /out:cmTC_79d36.exe /implib:cmTC_79d36.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-jdxohz\\cmTC_79d36.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_79d36.dir/intermediate.manifest CMakeFiles\\cmTC_79d36.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79d36.dir\\objects1.rsp /out:cmTC_79d36.exe /implib:cmTC_79d36.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-jdxohz\\cmTC_79d36.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_79d36.dir/intermediate.manifest CMakeFiles\\cmTC_79d36.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b2a06.dir\\objects1.rsp /out:cmTC_b2a06.exe /implib:cmTC_b2a06.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ulty9s\\cmTC_b2a06.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b2a06.dir/intermediate.manifest CMakeFiles\\cmTC_b2a06.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b2a06.dir\\objects1.rsp /out:cmTC_b2a06.exe /implib:cmTC_b2a06.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-ulty9s\\cmTC_b2a06.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b2a06.dir/intermediate.manifest CMakeFiles\\cmTC_b2a06.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_79d36.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79d36.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC755.tmp' : return code '0xffffffff'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b2a06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b2a06.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm6ED0.tmp' : return code '0xffffffff'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_79d36.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_79d36.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b2a06.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b2a06.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -254,12 +250,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:21 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-df12p9"
-      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-df12p9"
+      source: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2k4m1u"
+      binary: "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2k4m1u"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -269,28 +265,28 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-df12p9'
+        Change Dir: 'C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2k4m1u'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_27900\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_27900.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_27900.dir\\build
-        Building CXX object CMakeFiles/cmTC_27900.dir/src.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_27900.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-df12p9 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC88D.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_81712\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_81712.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_81712.dir\\build
+        Building CXX object CMakeFiles/cmTC_81712.dir/src.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_81712.dir\\src.cxx.obj.d --working-dir=C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-2k4m1u --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm7035.tmp
         src.cxx
-        Linking CXX executable cmTC_27900.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_27900.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_27900.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nmC94A.tmp
+        Linking CXX executable cmTC_81712.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.1.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_81712.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_81712.dir\\objects1.rsp @C:\\Users\\C359F~1.STA\\AppData\\Local\\Temp\\nm70F3.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_27900.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_27900.dir/embed.manifest
+        Create CMakeFiles\\cmTC_81712.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_81712.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_27900.dir/manifest.res CMakeFiles\\cmTC_27900.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_81712.dir/manifest.res CMakeFiles\\cmTC_81712.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_27900.dir\\objects1.rsp /out:cmTC_27900.exe /implib:cmTC_27900.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-df12p9\\cmTC_27900.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_27900.dir/intermediate.manifest CMakeFiles\\cmTC_27900.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_81712.dir\\objects1.rsp /out:cmTC_81712.exe /implib:cmTC_81712.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-2k4m1u\\cmTC_81712.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_81712.dir/intermediate.manifest CMakeFiles\\cmTC_81712.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_27900.dir/intermediate.manifest /out:CMakeFiles\\cmTC_27900.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_81712.dir/intermediate.manifest /out:CMakeFiles\\cmTC_81712.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_27900.dir/manifest.res CMakeFiles\\cmTC_27900.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_81712.dir/manifest.res CMakeFiles\\cmTC_81712.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_27900.dir\\objects1.rsp /out:cmTC_27900.exe /implib:cmTC_27900.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-df12p9\\cmTC_27900.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_27900.dir/intermediate.manifest CMakeFiles\\cmTC_27900.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_81712.dir\\objects1.rsp /out:cmTC_81712.exe /implib:cmTC_81712.lib /pdb:C:\\Users\\c.stanley\\Desktop\\Thales-457400-Series-0914sod\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-2k4m1u\\cmTC_81712.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_81712.dir/intermediate.manifest CMakeFiles\\cmTC_81712.dir/manifest.res
         
       exitCode: 0
 ...

@@ -1354,6 +1354,30 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "EXCALIBUR_429_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-debug/Exc429RtxMs.lib"
+		},
+		{
+			"name" : "EXCALIBUR_LIB_X64",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/c.stanley/Desktop/Thales-457400-Series-0914sod/cmake-build-debug/Exc4000Ms.lib"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
