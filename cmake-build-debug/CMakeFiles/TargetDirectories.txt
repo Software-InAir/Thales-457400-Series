@@ -1,0 +1,3 @@
+C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/Thales.dir
+C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

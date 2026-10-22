@@ -1,0 +1,38 @@
+Excalibur 429RTx Board Type Information
+
+[-- This file is named: demo_information_429_22Oct2026-111938.txt --]
+
+-------------------------------------
+--  Board Level Status Information --
+-------------------------------------
+
+Device number is: 25
+Board Type is: 0x4006 [EXC-2000PCI]
+
+
+Dip Switch setting is: 0x8 (8)
+4000 Interface Rev is: 2.0
+
+Module 0 is of type: M4K429RTx     (modType 0x04, Family M4K, 16-bit Access)
+Module 1 is of type: No module present
+Module 2 is of type: No module present
+Module 3 is of type: No module present
+Module 4 is of type: No module present
+Module 5 is of type: No module present
+Module 6 is of type: No module present
+Module 7 is of type: No module present
+
+
+-------------------------------
+-- Module Status Information --
+-------------------------------
+
+Module 0 is a 429RTx family module ...
+Init_Module_RTx PASSED
+Module PASSED Internal Test
+Module Hardware revision is 5.0
+Module Firmware revision is 3.04
+Number of 429RTx channels on this module is 5
+
+
+
