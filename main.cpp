@@ -48,11 +48,27 @@
 
 #define ERRLEN 255
 
+// Go over card opening process and card identification after lunch
+
+//-----------------------------------------------------------------------------------------Pickering Locator
+/*
 int main(void)
 {
+    DWORD cardnum = 0;
+
+    DWORD result = PIL_OpenSpecifiedCard(4, 0, &cardnum);
+
     DWORD sub_unit = 1;
-    PIL_OpBit( 1, sub_unit, 2, 1);
+
+
+    qDebug() << "Cards opened:" << result;
+
+    qDebug() << "Card number:" << cardnum;
+
+    PIL_OpBit( cardnum, sub_unit, 2, 0);
+
 }
+*/
 
 /*---------------------------------------------------------------------------6703 locator
 
