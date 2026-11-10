@@ -954,8 +954,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ccw6kc"
-      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ccw6kc"
+      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gbgb5n"
+      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gbgb5n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -966,28 +966,28 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ccw6kc'
+        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gbgb5n'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ea809\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ea809.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ea809.dir\\build
-        Building CXX object CMakeFiles/cmTC_ea809.dir/CMakeCXXCompilerABI.cpp.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ea809.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ccw6kc" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nmEA6.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_f014c\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_f014c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_f014c.dir\\build
+        Building CXX object CMakeFiles/cmTC_f014c.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f014c.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-gbgb5n" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm83A4.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_ea809.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_ea809.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea809.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm10AB.tmp
+        Linking CXX executable cmTC_f014c.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_f014c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f014c.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm8625.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_ea809.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_ea809.dir/embed.manifest
+        Create CMakeFiles\\cmTC_f014c.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_f014c.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ea809.dir/manifest.res CMakeFiles\\cmTC_ea809.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f014c.dir/manifest.res CMakeFiles\\cmTC_f014c.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea809.dir\\objects1.rsp /out:cmTC_ea809.exe /implib:cmTC_ea809.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ccw6kc\\cmTC_ea809.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ea809.dir/intermediate.manifest CMakeFiles\\cmTC_ea809.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f014c.dir\\objects1.rsp /out:cmTC_f014c.exe /implib:cmTC_f014c.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-gbgb5n\\cmTC_f014c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f014c.dir/intermediate.manifest CMakeFiles\\cmTC_f014c.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_ea809.dir/intermediate.manifest /out:CMakeFiles\\cmTC_ea809.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_f014c.dir/intermediate.manifest /out:CMakeFiles\\cmTC_f014c.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ea809.dir/manifest.res CMakeFiles\\cmTC_ea809.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f014c.dir/manifest.res CMakeFiles\\cmTC_f014c.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ea809.dir\\objects1.rsp /out:cmTC_ea809.exe /implib:cmTC_ea809.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ccw6kc\\cmTC_ea809.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ea809.dir/intermediate.manifest CMakeFiles\\cmTC_ea809.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f014c.dir\\objects1.rsp /out:cmTC_f014c.exe /implib:cmTC_f014c.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-gbgb5n\\cmTC_f014c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f014c.dir/intermediate.manifest CMakeFiles\\cmTC_f014c.dir/manifest.res
         
       exitCode: 0
   -
@@ -2012,12 +2012,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5f0yw2"
-      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5f0yw2"
+      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbm1k0"
+      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbm1k0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2028,17 +2028,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5f0yw2'
+        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbm1k0'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_dfb3d\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_dfb3d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_dfb3d.dir\\build
-        Building CXX object CMakeFiles/cmTC_dfb3d.dir/src.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_dfb3d.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5f0yw2" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3AEE.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_64357\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_64357.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_64357.dir\\build
+        Building CXX object CMakeFiles/cmTC_64357.dir/src.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_64357.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-cbm1k0" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm4FE4.tmp
         src.cxx
-        C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5f0yw2\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_dfb3d.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5f0yw2" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3AEE.tmp' : return code '0x2'
+        C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-cbm1k0\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_64357.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-cbm1k0" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm4FE4.tmp' : return code '0x2'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_dfb3d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_dfb3d.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_64357.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_64357.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -2053,12 +2053,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eaw5cs"
-      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eaw5cs"
+      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mdf50z"
+      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mdf50z"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2069,27 +2069,27 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eaw5cs'
+        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mdf50z'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_9bbe2\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9bbe2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9bbe2.dir\\build
-        Building CXX object CMakeFiles/cmTC_9bbe2.dir/CheckFunctionExists.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9bbe2.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-eaw5cs" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3CC3.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_2e384\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2e384.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2e384.dir\\build
+        Building CXX object CMakeFiles/cmTC_2e384.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_2e384.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mdf50z" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm519A.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_9bbe2.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_9bbe2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9bbe2.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3D70.tmp
+        Linking CXX executable cmTC_2e384.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_2e384.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2e384.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm5237.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_9bbe2.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_9bbe2.dir/embed.manifest
+        Create CMakeFiles\\cmTC_2e384.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_2e384.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9bbe2.dir/manifest.res CMakeFiles\\cmTC_9bbe2.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2e384.dir/manifest.res CMakeFiles\\cmTC_2e384.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9bbe2.dir\\objects1.rsp /out:cmTC_9bbe2.exe /implib:cmTC_9bbe2.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-eaw5cs\\cmTC_9bbe2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9bbe2.dir/intermediate.manifest CMakeFiles\\cmTC_9bbe2.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9bbe2.dir\\objects1.rsp /out:cmTC_9bbe2.exe /implib:cmTC_9bbe2.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-eaw5cs\\cmTC_9bbe2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9bbe2.dir/intermediate.manifest CMakeFiles\\cmTC_9bbe2.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2e384.dir\\objects1.rsp /out:cmTC_2e384.exe /implib:cmTC_2e384.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mdf50z\\cmTC_2e384.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2e384.dir/intermediate.manifest CMakeFiles\\cmTC_2e384.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2e384.dir\\objects1.rsp /out:cmTC_2e384.exe /implib:cmTC_2e384.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mdf50z\\cmTC_2e384.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2e384.dir/intermediate.manifest CMakeFiles\\cmTC_2e384.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_9bbe2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9bbe2.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3D70.tmp' : return code '0xffffffff'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_2e384.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2e384.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm5237.tmp' : return code '0xffffffff'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9bbe2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9bbe2.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_2e384.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_2e384.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -2104,12 +2104,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:168 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9x1f4c"
-      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9x1f4c"
+      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fpat5t"
+      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fpat5t"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2120,27 +2120,27 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9x1f4c'
+        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fpat5t'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7dfa7\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_7dfa7.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7dfa7.dir\\build
-        Building CXX object CMakeFiles/cmTC_7dfa7.dir/CheckFunctionExists.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7dfa7.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-9x1f4c" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm3F53.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_af474\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_af474.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_af474.dir\\build
+        Building CXX object CMakeFiles/cmTC_af474.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_af474.dir\\CheckFunctionExists.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-fpat5t" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm53FB.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_7dfa7.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_7dfa7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7dfa7.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm4000.tmp
+        Linking CXX executable cmTC_af474.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_af474.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_af474.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm5489.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_7dfa7.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_7dfa7.dir/embed.manifest
+        Create CMakeFiles\\cmTC_af474.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_af474.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_7dfa7.dir/manifest.res CMakeFiles\\cmTC_7dfa7.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_af474.dir/manifest.res CMakeFiles\\cmTC_af474.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7dfa7.dir\\objects1.rsp /out:cmTC_7dfa7.exe /implib:cmTC_7dfa7.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-9x1f4c\\cmTC_7dfa7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7dfa7.dir/intermediate.manifest CMakeFiles\\cmTC_7dfa7.dir/manifest.res
-        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7dfa7.dir\\objects1.rsp /out:cmTC_7dfa7.exe /implib:cmTC_7dfa7.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-9x1f4c\\cmTC_7dfa7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7dfa7.dir/intermediate.manifest CMakeFiles\\cmTC_7dfa7.dir/manifest.res" failed (exit code 1104) with the following output:
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_af474.dir\\objects1.rsp /out:cmTC_af474.exe /implib:cmTC_af474.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-fpat5t\\cmTC_af474.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_af474.dir/intermediate.manifest CMakeFiles\\cmTC_af474.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_af474.dir\\objects1.rsp /out:cmTC_af474.exe /implib:cmTC_af474.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-fpat5t\\cmTC_af474.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_af474.dir/intermediate.manifest CMakeFiles\\cmTC_af474.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
-        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_7dfa7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_7dfa7.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm4000.tmp' : return code '0xffffffff'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_af474.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_af474.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm5489.tmp' : return code '0xffffffff'
         Stop.
-        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_7dfa7.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7dfa7.dir\\build' : return code '0x2'
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_af474.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_af474.dir\\build' : return code '0x2'
         Stop.
         
       exitCode: 2
@@ -2154,7 +2154,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -2304,7 +2304,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -2451,7 +2451,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_tool_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
       -
@@ -2608,12 +2608,12 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j6j3cg"
-      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j6j3cg"
+      source: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mribn3"
+      binary: "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mribn3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2624,28 +2624,28 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j6j3cg'
+        Change Dir: 'C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mribn3'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_31534\\fast
-        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_31534.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_31534.dir\\build
-        Building CXX object CMakeFiles/cmTC_31534.dir/src.cxx.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_31534.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-j6j3cg" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm43C8.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_40b58\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_40b58.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_40b58.dir\\build
+        Building CXX object CMakeFiles/cmTC_40b58.dir/src.cxx.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_40b58.dir\\src.cxx.obj.d --working-dir="C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mribn3" --filter-prefix="Note: including file: " -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm56E9.tmp
         src.cxx
-        Linking CXX executable cmTC_31534.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_31534.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_31534.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm4520.tmp
+        Linking CXX executable cmTC_40b58.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_40b58.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_40b58.dir\\objects1.rsp @C:\\Users\\WIN10D~1\\AppData\\Local\\Temp\\nm5823.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_31534.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_31534.dir/embed.manifest
+        Create CMakeFiles\\cmTC_40b58.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_40b58.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_31534.dir/manifest.res CMakeFiles\\cmTC_31534.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_40b58.dir/manifest.res CMakeFiles\\cmTC_40b58.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_31534.dir\\objects1.rsp /out:cmTC_31534.exe /implib:cmTC_31534.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-j6j3cg\\cmTC_31534.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_31534.dir/intermediate.manifest CMakeFiles\\cmTC_31534.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_40b58.dir\\objects1.rsp /out:cmTC_40b58.exe /implib:cmTC_40b58.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mribn3\\cmTC_40b58.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_40b58.dir/intermediate.manifest CMakeFiles\\cmTC_40b58.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_31534.dir/intermediate.manifest /out:CMakeFiles\\cmTC_31534.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_40b58.dir/intermediate.manifest /out:CMakeFiles\\cmTC_40b58.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_31534.dir/manifest.res CMakeFiles\\cmTC_31534.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_40b58.dir/manifest.res CMakeFiles\\cmTC_40b58.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_31534.dir\\objects1.rsp /out:cmTC_31534.exe /implib:cmTC_31534.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-j6j3cg\\cmTC_31534.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_31534.dir/intermediate.manifest CMakeFiles\\cmTC_31534.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_40b58.dir\\objects1.rsp /out:cmTC_40b58.exe /implib:cmTC_40b58.lib /pdb:C:\\Users\\WIN10 DU\\Downloads\\Thales-457400-Series-serial\\Thales-457400-Series-serial\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-mribn3\\cmTC_40b58.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_40b58.dir/intermediate.manifest CMakeFiles\\cmTC_40b58.dir/manifest.res
         
       exitCode: 0
   -
@@ -2662,7 +2662,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6ZlibPrivate"
     configs:
       -
@@ -2800,7 +2800,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6EntryPointPrivate"
     configs:
       -
@@ -2934,7 +2934,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6CorePrivate"
     configs:
       -
@@ -3070,7 +3070,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     mode: "program"
     variable: "WINDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -3192,7 +3192,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -3362,7 +3362,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -3551,7 +3551,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -3738,7 +3738,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -4010,7 +4010,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -4278,7 +4278,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6GuiPrivate"
     configs:
       -
@@ -4411,7 +4411,7 @@ events:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -4556,7 +4556,7 @@ events:
     backtrace:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:85 (find_package)"
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6WidgetsPrivate"
     configs:
       -
@@ -4684,7 +4684,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "C:/Qt6/6.9.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:218 (find_package)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
     name: "Qt6Widgets"
     configs:
       -
@@ -4821,14 +4821,10 @@ events:
         - "C:/Program Files (x86)"
         - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64"
         - "C:/Program Files (x86)/Thales"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:23 (find_library)"
+      - "CMakeLists.txt:25 (find_library)"
     mode: "library"
     variable: "EXCALIBUR_LIB_X64"
     description: "Path to a library."
@@ -4843,6 +4839,8 @@ events:
     names:
       - "Exc4000Ms"
     candidate_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -4894,6 +4892,8 @@ events:
       - "/bin/"
       - "C:/Excalibur/4000PCI Family Software Tools/Source/lib/excMSVisual/x64/Release/"
     searched_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -4945,6 +4945,8 @@ events:
       - "/bin/"
     found: "C:/Excalibur/4000PCI Family Software Tools/Source/lib/excMSVisual/x64/Release/Exc4000Ms.lib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt6/6.9.1/msvc2022_64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
@@ -4999,7 +5001,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:29 (find_library)"
+      - "CMakeLists.txt:31 (find_library)"
     mode: "library"
     variable: "EXCALIBUR_429_LIB"
     description: "Path to a library."
@@ -5014,6 +5016,8 @@ events:
     names:
       - "Exc429RtxMs"
     candidate_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5065,6 +5069,8 @@ events:
       - "/bin/"
       - "C:/Excalibur/429RTx Software Tools/Source/lib/excMSVisual/x64/Release/"
     searched_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5116,6 +5122,8 @@ events:
       - "/bin/"
     found: "C:/Excalibur/429RTx Software Tools/Source/lib/excMSVisual/x64/Release/Exc429RtxMs.lib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt6/6.9.1/msvc2022_64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
@@ -5170,7 +5178,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:35 (find_library)"
+      - "CMakeLists.txt:37 (find_library)"
     mode: "library"
     variable: "VISA_LIB_X64"
     description: "Path to a library."
@@ -5186,6 +5194,8 @@ events:
       - "visa64"
       - "Visa64"
     candidate_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5237,6 +5247,8 @@ events:
       - "/bin/"
       - "C:/Program Files/IVI Foundation/VISA/Win64/Lib_x64/msc/"
     searched_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5288,6 +5300,8 @@ events:
       - "/bin/"
     found: "C:/Program Files/IVI Foundation/VISA/Win64/Lib_x64/msc/visa64.lib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt6/6.9.1/msvc2022_64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
@@ -5342,7 +5356,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:42 (find_library)"
+      - "CMakeLists.txt:44 (find_library)"
     mode: "library"
     variable: "DAQMX_LIB_X64"
     description: "Path to a library."
@@ -5357,6 +5371,8 @@ events:
     names:
       - "NIDAQmx"
     candidate_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5408,6 +5424,8 @@ events:
       - "/bin/"
       - "C:/Program Files (x86)/National Instruments/Shared/ExternalCompilerSupport/C/lib64/msvc/"
     searched_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
       - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
@@ -5459,6 +5477,185 @@ events:
       - "/bin/"
     found: "C:/Program Files (x86)/National Instruments/Shared/ExternalCompilerSupport/C/lib64/msvc/NIDAQmx.lib"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt6/6.9.1/msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\National Instruments\\Shared\\ULx\\"
+        - "C:\\Program Files (x86)\\Measurement Computing\\DAQ\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin\\"
+        - "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\"
+        - "C:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI"
+        - "C:\\Program Files (x86)\\IVI Foundation\\VISA\\WinNT\\Bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\WIN10 DU\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\WIN10 DU\\.dotnet\\tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\vcpkg"
+        - "C:\\Program Files\\JetBrains\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Thales"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/Thales"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/Thales/bin"
+        - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin"
+        - "/bin"
+      ENV{LIB}:
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\lib\\um\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.26100.0\\ucrt\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\lib\\10.0.26100.0\\\\um\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:50 (find_library)"
+    mode: "library"
+    variable: "PILPXI_LIB_X64"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Pilpxi"
+    candidate_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
+      - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Program Files (x86)/National Instruments/Shared/ULx/"
+      - "C:/Program Files (x86)/Measurement Computing/DAQ/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/National Instruments/Shared/LabVIEW CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/WIN10 DU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/WIN10 DU/.dotnet/tools/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/vcpkg/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/lib/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/Thales/lib/"
+      - "C:/Program Files (x86)/Thales/"
+      - "C:/Program Files (x86)/Thales/bin/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/"
+      - "/bin/"
+      - "C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC/"
+    searched_directories:
+      - "C:/Qt6/6.9.1/msvc2022_64/lib/"
+      - "C:/Qt6/6.9.1/msvc2022_64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/lib/x64/"
+      - "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Lib/um/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Program Files (x86)/National Instruments/Shared/ULx/"
+      - "C:/Program Files (x86)/Measurement Computing/DAQ/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/"
+      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/"
+      - "C:/Program Files (x86)/National Instruments/Shared/LabVIEW CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/WIN10 DU/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/WIN10 DU/.dotnet/tools/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/vcpkg/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/lib/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/Thales/lib/"
+      - "C:/Program Files (x86)/Thales/"
+      - "C:/Program Files (x86)/Thales/bin/"
+      - "C:/Program Files/JetBrains/CLion 2026.2.2/bin/cmake/win/x64/bin/"
+      - "/bin/"
+    found: "C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC/Pilpxi.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt6/6.9.1/msvc2022_64"
       ENV{PATH}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"

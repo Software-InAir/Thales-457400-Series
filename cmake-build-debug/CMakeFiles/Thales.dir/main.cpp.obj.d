@@ -636,4 +636,4 @@ C:/Excalibur/429RTx Software Tools/Source/include/flags_dio.h
 C:/Excalibur/429RTx Software Tools/Source/include/deviceio.h
 C:/Excalibur/429RTx Software Tools/Source/include/proto_rtx_back.h
 C:/Excalibur/429RTx Software Tools/Source/include/instance_rtx.h
-C:/Program Files (x86)/National Instruments/NI-DAQ/DAQmx ANSI C Dev/include/NIDAQmx.h
+C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC/Pilpxi.h

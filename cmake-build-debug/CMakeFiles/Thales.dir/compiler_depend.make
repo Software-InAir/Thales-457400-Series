@@ -640,7 +640,7 @@ CMakeFiles\Thales.dir\main.cpp.obj: "C:\Excalibur\429RTx Software Tools\Source\i
 CMakeFiles\Thales.dir\main.cpp.obj: "C:\Excalibur\429RTx Software Tools\Source\include\deviceio.h"
 CMakeFiles\Thales.dir\main.cpp.obj: "C:\Excalibur\429RTx Software Tools\Source\include\proto_rtx_back.h"
 CMakeFiles\Thales.dir\main.cpp.obj: "C:\Excalibur\429RTx Software Tools\Source\include\instance_rtx.h"
-CMakeFiles\Thales.dir\main.cpp.obj: "C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include\NIDAQmx.h"
+CMakeFiles\Thales.dir\main.cpp.obj: "C:\Program Files\Pickering Interfaces Ltd\Pilpxi\VC\Pilpxi.h"
 
 
 
@@ -1174,6 +1174,8 @@ C:\Qt6\6.9.1\msvc2022_64\include\QtWidgets\QStackedWidget:
 
 "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231\include\xpolymorphic_allocator.h":
 
+"C:\Program Files\Pickering Interfaces Ltd\Pilpxi\VC\Pilpxi.h":
+
 "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.51.36231\include\vector":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um\nb30.h":
@@ -1655,5 +1657,3 @@ C:\Qt6\6.9.1\msvc2022_64\include\QtWidgets\QHBoxLayout:
 "C:\Excalibur\429RTx Software Tools\Source\include\error_devio.h":
 
 "C:\Excalibur\429RTx Software Tools\Source\include\rtxIncl.h":
-
-"C:\Program Files (x86)\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include\NIDAQmx.h":

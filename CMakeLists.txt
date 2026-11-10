@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 3.16)
 project(Thales VERSION 1.0 LANGUAGES CXX)
 
+set(CMAKE_PREFIX_PATH "C:/Qt6/6.9.1/msvc2022_64")
+
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
 add_executable(Thales
         main.cpp
         main.h
-
 )
 
 # 1. Include Directories (Added the standard VISA include path)
@@ -15,6 +16,7 @@ target_include_directories(Thales PRIVATE
         "C:/Excalibur/429RTx Software Tools/Source/include"
         "C:/Program Files/IVI Foundation/VISA/Win64/Include"
         "C:/Program Files (x86)/National Instruments/NI-DAQ/DAQmx ANSI C Dev/include"
+        "C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC"
 )
 
 target_compile_definitions(Thales PRIVATE EXP_WIN32 _WIN64)
@@ -45,6 +47,12 @@ find_library(DAQMX_LIB_X64
         REQUIRED
 )
 
+find_library(PILPXI_LIB_X64
+        NAMES Pilpxi
+        PATHS "C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC"
+        REQUIRED
+)
+
 # 4. Link Libraries
 target_link_libraries(Thales PRIVATE
         Qt6::Widgets
@@ -52,6 +60,7 @@ target_link_libraries(Thales PRIVATE
         ${EXCALIBUR_LIB_X64}
         ${VISA_LIB_X64}
         ${DAQMX_LIB_X64}
+        ${PILPXI_LIB_X64}
 )
 
 if(EXCALIBUR_429_LIB)

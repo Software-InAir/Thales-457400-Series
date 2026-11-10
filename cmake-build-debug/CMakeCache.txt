@@ -253,6 +253,9 @@ EXCALIBUR_429_LIB:FILEPATH=C:/Excalibur/429RTx Software Tools/Source/lib/excMSVi
 //Path to a library.
 EXCALIBUR_LIB_X64:FILEPATH=C:/Excalibur/4000PCI Family Software Tools/Source/lib/excMSVisual/x64/Release/Exc4000Ms.lib
 
+//Path to a library.
+PILPXI_LIB_X64:FILEPATH=C:/Program Files/Pickering Interfaces Ltd/Pilpxi/VC/Pilpxi.lib
+
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
 QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=

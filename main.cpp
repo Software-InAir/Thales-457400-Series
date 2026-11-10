@@ -36,6 +36,10 @@
 #include "excsysio.h"
 #include "proto_rtx.h"
 
+#include "Pilpxi.h"
+
+
+
 
 
 #ifndef eSuccessfulCompletion
@@ -43,6 +47,12 @@
 #endif
 
 #define ERRLEN 255
+
+int main(void)
+{
+    DWORD sub_unit = 1;
+    PIL_OpBit( 1, sub_unit, 2, 1);
+}
 
 /*---------------------------------------------------------------------------6703 locator
 
