@@ -8,6 +8,8 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets)
 add_executable(Thales
         main.cpp
         main.h
+        amrel.cpp
+        amrel.h
 )
 
 # 1. Include Directories (Added the standard VISA include path)

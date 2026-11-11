@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Thales.dir/amrel.cpp.obj"
+  "CMakeFiles/Thales.dir/amrel.cpp.obj.d"
   "CMakeFiles/Thales.dir/main.cpp.obj"
   "CMakeFiles/Thales.dir/main.cpp.obj.d"
   "Thales.exe"

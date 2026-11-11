@@ -81,14 +81,36 @@ CMakeFiles\Thales.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Thales.dir\main.cpp.s /c "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\main.cpp"
 <<
 
+CMakeFiles\Thales.dir\amrel.cpp.obj: CMakeFiles\Thales.dir\flags.make
+CMakeFiles\Thales.dir\amrel.cpp.obj: "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\amrel.cpp"
+CMakeFiles\Thales.dir\amrel.cpp.obj: CMakeFiles\Thales.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thales.dir/amrel.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\Thales.dir\amrel.cpp.obj.d --working-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug" --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~3\18\BUILDT~1\VC\Tools\MSVC\1451~1.362\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\Thales.dir\amrel.cpp.obj /FdCMakeFiles\Thales.dir\ /FS -c "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\amrel.cpp"
+<<
+
+CMakeFiles\Thales.dir\amrel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Thales.dir/amrel.cpp.i"
+	C:\PROGRA~2\MICROS~3\18\BUILDT~1\VC\Tools\MSVC\1451~1.362\bin\Hostx64\x64\cl.exe > CMakeFiles\Thales.dir\amrel.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\amrel.cpp"
+<<
+
+CMakeFiles\Thales.dir\amrel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Thales.dir/amrel.cpp.s"
+	C:\PROGRA~2\MICROS~3\18\BUILDT~1\VC\Tools\MSVC\1451~1.362\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Thales.dir\amrel.cpp.s /c "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\amrel.cpp"
+<<
+
 # Object files for target Thales
 Thales_OBJECTS = \
-"CMakeFiles\Thales.dir\main.cpp.obj"
+"CMakeFiles\Thales.dir\main.cpp.obj" \
+"CMakeFiles\Thales.dir\amrel.cpp.obj"
 
 # External object files for target Thales
 Thales_EXTERNAL_OBJECTS =
 
 Thales.exe: CMakeFiles\Thales.dir\main.cpp.obj
+Thales.exe: CMakeFiles\Thales.dir\amrel.cpp.obj
 Thales.exe: CMakeFiles\Thales.dir\build.make
 Thales.exe: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib
 Thales.exe: "C:\Excalibur\4000PCI Family Software Tools\Source\lib\excMSVisual\x64\Release\Exc4000Ms.lib"
@@ -99,7 +121,7 @@ Thales.exe: "C:\Excalibur\429RTx Software Tools\Source\lib\excMSVisual\x64\Relea
 Thales.exe: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Guid.lib
 Thales.exe: C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Cored.lib
 Thales.exe: CMakeFiles\Thales.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Thales.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Thales.exe"
 	"C:\Program Files\JetBrains\CLion 2026.2.2\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\Thales.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\18\BUILDT~1\VC\Tools\MSVC\1451~1.362\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\Thales.dir\objects1.rsp @<<
  /out:Thales.exe /implib:Thales.lib /pdb:"C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\Thales.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Widgetsd.lib "C:\Excalibur\4000PCI Family Software Tools\Source\lib\excMSVisual\x64\Release\Exc4000Ms.lib" "C:\Program Files\IVI Foundation\VISA\Win64\Lib_x64\msc\visa64.lib" "C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\lib64\msvc\NIDAQmx.lib" "C:\Program Files\Pickering Interfaces Ltd\Pilpxi\VC\Pilpxi.lib" "C:\Excalibur\429RTx Software Tools\Source\lib\excMSVisual\x64\Release\Exc429RtxMs.lib" C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Guid.lib C:\Qt6\6.9.1\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<

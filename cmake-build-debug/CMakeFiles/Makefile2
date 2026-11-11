@@ -74,12 +74,12 @@ clean: CMakeFiles\Thales.dir\clean
 CMakeFiles\Thales.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Thales"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target Thales"
 .PHONY : CMakeFiles\Thales.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Thales.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\Thales.dir\rule
@@ -91,7 +91,7 @@ Thales: CMakeFiles\Thales.dir\rule
 # codegen rule for target.
 CMakeFiles\Thales.dir\codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Finished codegen for target Thales"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\WIN10 DU\Downloads\Thales-457400-Series-serial\Thales-457400-Series-serial\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target Thales"
 .PHONY : CMakeFiles\Thales.dir\codegen
 
 # clean rule for target.

@@ -118,6 +118,30 @@ Thales\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\build
 .PHONY : Thales\fast
 
+amrel.obj: amrel.cpp.obj
+.PHONY : amrel.obj
+
+# target to build an object file
+amrel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\amrel.cpp.obj
+.PHONY : amrel.cpp.obj
+
+amrel.i: amrel.cpp.i
+.PHONY : amrel.i
+
+# target to preprocess a source file
+amrel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\amrel.cpp.i
+.PHONY : amrel.cpp.i
+
+amrel.s: amrel.cpp.s
+.PHONY : amrel.s
+
+# target to generate assembly for a file
+amrel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Thales.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Thales.dir\amrel.cpp.s
+.PHONY : amrel.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Thales
+	@echo ... amrel.obj
+	@echo ... amrel.i
+	@echo ... amrel.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

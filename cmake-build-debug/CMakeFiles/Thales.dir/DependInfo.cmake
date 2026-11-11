@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/amrel.cpp" "CMakeFiles/Thales.dir/amrel.cpp.obj" "msvc" "CMakeFiles/Thales.dir/amrel.cpp.obj.d"
   "C:/Users/WIN10 DU/Downloads/Thales-457400-Series-serial/Thales-457400-Series-serial/main.cpp" "CMakeFiles/Thales.dir/main.cpp.obj" "msvc" "CMakeFiles/Thales.dir/main.cpp.obj.d"
   )
 
